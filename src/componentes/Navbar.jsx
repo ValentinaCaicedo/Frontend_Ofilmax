@@ -1,9 +1,11 @@
 import React from 'react'
-import '../src/index.css'
+// import '../src/index.css'
 
-class Navbar extends React.Component (){
-    render () {
-        return (<div className="Navbar">
+class Navbar extends React.Component{
+  render(){
+    return(
+      <div>
+        <div className="Navbar">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className='container'>
           <a className="navbar-brand" href="#">Ofilmax</a>
@@ -34,7 +36,10 @@ class Navbar extends React.Component (){
           </div>
           </div>
         </nav>
-      </div>) 
-    }
-}
+      </div>
+  </div>
+    );
+  }
+  }
+
 export default Navbar;

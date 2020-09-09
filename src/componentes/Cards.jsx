@@ -1,10 +1,12 @@
 import React from 'react'
-import '../src/index.css'
+// import '../src/index.css'
 
 
-class Cards extends React.Component (){
-    render () {
-        return (<div className='Cards'>
+class Cards extends React.Component{
+  render(){
+    return(
+      <div>
+        <div className='Cards'>
         <div className="card-deck">
           <div class="card">
             <img src="..." class="card-img-top" alt="..." />
@@ -37,7 +39,9 @@ class Cards extends React.Component (){
             </div>
           </div>
         </div>
-      </div>)
-    }
-}
+      </div>
+  </div>
+    );
+  }
+  }
 export default Cards;

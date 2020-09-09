@@ -1,10 +1,12 @@
 import React from 'react'
-import '../src/index.css'
+// import '../src/index.css'
 import '../componentes/Navbar'
 
-class Header extends React.Component (){
-    render () {
-        return (<div className="Header">
+class Header extends React.Component{
+    render(){
+      return(
+        <div>
+            <div className="Header">
         <div className="card mb-3">
             <img src="..." class="card-img-top" alt="..." />
             <div className="card-body">
@@ -14,8 +16,10 @@ class Header extends React.Component (){
                 <p className="card-text"><small class="text-muted"></small></p>
             </div>
         </div>
-    </div>)
-
+    </div>
+    </div>
+      );
     }
-}
+    }
+  
 export default Header;
