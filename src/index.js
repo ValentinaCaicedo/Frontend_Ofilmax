@@ -1,15 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App.js';
-import App2 from './App2.js';
-import App3 from './App3.js';
+import 'bootstrap/dist/css/bootstrap.css'
 import '../src/index.css'
+import PaginaInicial from './pagina/PaginaInicial';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    <App2 />
-    <App3 />
+    <PaginaInicial />
   </React.StrictMode>,
   document.getElementById('root')
 );

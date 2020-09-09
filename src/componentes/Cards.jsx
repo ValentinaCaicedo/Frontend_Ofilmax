@@ -2,9 +2,9 @@ import React from 'react'
 import '../src/index.css'
 
 
-function App3 (){
-    return (
-      <div className='App3'>
+class Cards extends React.Component (){
+    render () {
+        return (<div className='Cards'>
         <div className="card-deck">
           <div class="card">
             <img src="..." class="card-img-top" alt="..." />
@@ -37,8 +37,7 @@ function App3 (){
             </div>
           </div>
         </div>
-      </div>
-    )
-  }
-export default App3;
-
+      </div>)
+    }
+}
+export default Cards;
