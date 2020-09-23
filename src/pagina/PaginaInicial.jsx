@@ -8,7 +8,10 @@ class PaginaInicial extends React.Component {
     return (
       <div>
         <Navbar />
+        <br></br>
+        <br></br>
         <Header />
+        <br></br>
         <Cards />
       </div>
     );
