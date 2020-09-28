@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../componentes/Navbar'
+import Navegacion from '../componentes/Navegacion'
 import Header from '../componentes/Header'
 import Cards from '../componentes/Cards'
 
@@ -7,12 +7,17 @@ class PaginaInicial extends React.Component {
   render() {
     return (
       <div>
-        <Navbar />
+        <Navegacion />
         <br></br>
         <br></br>
-        <Header />
+        <div className = "container">
+          <Header />
+        </div>
         <br></br>
-        <Cards />
+        <div className = "container">
+          <Cards />
+        </div>
+        
       </div>
     );
   }
